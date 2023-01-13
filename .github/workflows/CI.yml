@@ -28,7 +28,7 @@ jobs:
         cmake --build . --config Release -j 2
 
   ubuntu:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
       with:
