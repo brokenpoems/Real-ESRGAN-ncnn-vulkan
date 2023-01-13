@@ -307,4 +307,4 @@ if(OPENMP_FOUND)
 endif()
 
 target_link_libraries(realesrgan-ncnn-vulkan ${REALESRGAN_LINK_LIBRARIES} -static-libstdc++)
-
+target_link_libraries(realesrgan-ncnn-vulkan -lstdc++fs)
